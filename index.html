@@ -5,48 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single price grid component</title>
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- google font  -->
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     
-    <main class="bg-Gray-Light font-karla min-h-screen flex items-center">
-        <article class="text-base bg-White text-White max-w-[635px] mx-auto rounded-lg shadow-custom-blue box-border overflow-hidden">
-            <section class="flex flex-col">
-                <header class="p-9">
-                    <h1 class="font-bold text-2xl text-Cyan">Join our community</h1>
-                    <section>
-                        <h1 class="font-bold text-lg text-BrightYellow mt-6">30-day, hassle-free money back guarantee</h1>
-                        <p class="text-Gray-Blue leading-6 mt-3">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
-                    </section>
-
+    <main class="font-karla bg-bgg flex items-center justify-center min-h-screen">
+        <article class="md:w-[635px] w-[311px] bg-white rounded-lg overflow-hidden">
+                <header class="flex flex-col gap-6 p-9">
+                    <h1 class="text-preset-1 text-LightGray ">Join our community</h1>
+                    <div class="flex flex-col gap-[11px] md:w-[555px] w-full">
+                        <span class="text-preset-2 text-brightYellow">30-day, hassle free money back guarantee</span>
+                        <p class="md:text-preset-3 text-preset-4 text-graylishblue">
+                            Gain access to our full library of tutorails
+                            along with expert code reviews, perfect for any developers
+                            who are serious about honong their skills
+                        </p>
+                    </div>
                 </header>
-                <footer class="flex lg:flex-row flex-col">
-                    <section class="bg-Cyan p-9 flex-1">
-                        <span class="font-bold text-lg tracking-tight">Monthly Subscription</span>
-                        <div class="flex flex-col gap-1 mt-4">
-                            <div class="flex gap-3 items-center ">
-                                <span class="font-bold text-3xl">$29</span>
-                                <span class="text-base leading-6 tracking-tight opacity-50"> per month</span>
-                            </div>
-                            <p>full access for less than $1 a day</p>
+                <footer class="flex md:flex-row flex-col bg-LightGray text-white">
+                    <div class="flex flex-col flex-1 p-9">
+                        <h1 class="text-preset-2">Monthly Subscription</h1>
+                        <div class="price flex gap-[11px] items-center mt-[18px]">
+                            <h1 class="text-preset-5">$29</h1>
+                            <span class="text-preset-3 font-normal text-opacity-50"> per month</span>
                         </div>
-                        <button class="max-w-[237px] w-full h-[48px] bg-BrightYellow rounded-md mt-6">sign up</button>
-                    </section>
-                    <section class="bg-Gray-Blue p-9 flex-1 ">
-                        <span class="font-bold text-lg tracking-tight">why us</span>
-                        <ul class="text-base leading-5 mt-4">
-                            <li>Tutorials by industry expert</li>
+                        <p class="text-preset-3 mt-1">full access for less than $1 a day</p>
+                        <button class="text-preset-3 font-bold bg-brightYellow rounded-[5px] h-[48px] w-[237px] mt-[26px]">Sign Up</button>
+                    </div>
+                    <div class=" relative flex flex-col flex-1 p-9">
+                        <h1 class="text-preset-2">why us</h1>
+                        <ul class="text-preset-4 mt-[18px] text-opacity-75">
+                            <li>Tutorials by industry expers</li>
                             <li>Peer & expert code review</li>
                             <li>coding exercises</li>
                             <li>Access to our Github repos</li>
                             <li>Community forum</li>
                             <li>Flashcard decks</li>
                             <li>New videos every week</li>
-                        </ul>
-                    </section>
+                        </ul> 
+                        <!-- Overlay -->
+                        <div class="absolute inset-0 bg-graylishblue  bg-opacity-[15.9%]"></div>
+                    </div>
                 </footer>
-            </section>
         </article>
     </main>
 </body>
