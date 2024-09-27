@@ -27,13 +27,14 @@ Users should be able to:
 ### Screenshot
 
 ![./img/Screenshot.png](./img/Screenshot.png)
-![./img/Screenshotm.png](./img/Screenshotm.png)
 
 
 ### Links
 
-- Solution URL: [https://github.com/asad102/single_price_grid](https://github.com/asad102/single_price_grid)
-- Live Site URL: [https://asad102.github.io/single_price_grid/](https://asad102.github.io/single_price_grid/)
+- Solution URL: [https://github.com/asad102/order_summary_component](https://github.com/asad102/order_summary_component)
+- Live Site URL: [https://asad102.github.io/order_summary_component/](https://asad102.github.io/order_summary_component/)
+
+
 
 ## My process
 
