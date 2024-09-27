@@ -29,7 +29,7 @@ module.exports = {
         fontWeight: '400',  
       }],
       'preset-5': ['32px', {
-        lineHeight: '26px', 
+        lineHeight: '37px', 
         letterSpacing: '-0.4px', 
         fontWeight: '700',  
       }],
@@ -39,7 +39,7 @@ module.exports = {
       cyan : '#2AB3B1',
       brightYellow : '#C0DF33',
       LightGray : '#2AB3B1',
-      graylishblue : '#979797',
+      graylishblue : '#9AA7BE',
       bgg : '#E6EFF5',
       white : '#FFF',
     },
